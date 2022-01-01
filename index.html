@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to The Yewa South NYSC Portal</title>
+    <link rel="stylesheet" href="styleheader.css">
+    <link rel="stylesheet" href="stylebody.css">
+</head>
+<body>
+    
+    <div class="contianer">
+        <div class="header">
+            <div class="logo"><img src="images/NYSC.jpg" style="width: 70px; height: 70px"> <h4>Yewa South Youth Corpers</h4></div>
+            <div class="header-group" id="drop" onclick="home()">Home</div>
+            <div class="header-group" id="cdsgroups">CDS Groups</div>
+            <div class="header-group" id="drop"> About Yewa South</div>
+            <div class="header-group" onclick="suggestions()">Suggestion Box</div>
+            <div class="header-group" onclick="missionVision()">Mission & Vision</div>
+            <div class="header-group" onclick="contactUs()">Contact Us</div>
+            <div class="header-group" id="drop">
+                <b>Forms</b>
+                <div class="drop-content">
+                    <div class="leaveForm" onclick="formsh()">Application for leave </div>
+                    <div class="bioData" onclick="formBio()">Bio-data</div>
+        
+                </div>
+            </div>
+        </div>
+        <div class="header1">
+            <h1 class="text">Welcome to The YEWA SOUTH NYSC Portal</h1>
+        </div>
+        <div class="suggestion-box">
+            <div class="span">
+                <span class="span-group one">Your feedback is the key to our growth....</span>
+                <span class="span-group two">1. Give a detailed statement of the issues</span>
+                <textarea cols="10" rows="10"></textarea>
+            </div>
+            
+            <div class="span">
+                <span class="span-group two">2. What is your suggestion for improving this situation?</span>
+                <textarea cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit">SUBMIT</button>
+        </div>
+        <div class="mission-vision">
+            <div class="left">
+                <h1><b>NYSC MISSION STATEMENT</b></h1>
+                <p>To mobiliz and groom graduate 
+                    youth for the promotion of national unity, 
+                    sustainable development, self reliance 
+                    and prepare them for the challenges 
+                    of leadership.
+                </p>
+            </div>
+            <div class="right">
+                <h1><b>NYSC VISION STATEMENT</b></h1>
+                <p>To develop a scheme that is 
+                    dynamic enough to meet new challenges
+                     and become the leading light of 
+                     the youth organizations in Africa</p>
+            </div>
+        
+        </div>
+        <div class="contact-us">
+            <div class="contact-form">
+                <h1><b>Contact Us</b></h1>
+                <p>We would like to hear from you.</p>
+                <hr>
+                <p>Your feed back is paramount for improvement</p>
+                <div class="info">
+                    <form action="#">
+                        <div class="input-group">
+                            <i>Name</i>
+                            <input type="text" name="name" placeholder="FullName" id="Name">
+                        </div>
+                        <div class="input-group">
+                            <i>Email</i>
+                        <input type="email" name="email" placeholder="E-mail" id="Email">
+                        </div>
+                        <div class="input-group">
+                            <i>Message</i>
+                            <input type="text" name="message" placeholder="Message" id="Message">
+                        </div>
+                        <div class="input-group">
+                            <button type="submit">Contact Us</button>
+                        </div>
+                    </form>   
+                </div>
+                <div class="office">
+                    <div class="one"><p><b>NYSC NATIONAL HEAD OFFICE</b></p></div>
+                    <p>Plot 416, Tigris Crescent Off Aguiyi Ironsi Street, Maitama.</p>
+                    <p>PMB 138, Garki, ABuja.</p>
+                    <p>Tel: +234-8147869429, +234-9038034460, +234-8092142661.<br></p>
+                    <p>Email: nyscsupport@nysc.org.ng</p>
+                    <div class="two"><p><b>MOJICTECH NIGERIA</b></p></div>
+                    <p>Tel:+234-8106286657</p>
+                    <p>Email:mojictech@mojictech.com</p>
+                </div>
+                <h2><b>OUR OFFICIAL LINKS:</b></h2>
+                <p>FACEBOOK:</p>
+                <p>WHATSAPP:07032475327</p>
+            </div>
+        </div>
+        <div class="leave-form" id="lForm">
+            <div class="header2">
+                <h1 class="text">APPLICATION FOR LEAVE</h1>
+            </div>
+            <div class="leave-form-group">
+                <h3>NATIONAL YOUTH SERVICE CORPS</h3>
+                <h3>STATE SECRETARIAT</h3>
+                <h3>OKE-ILEWO</h3>
+                <h3>ABEOKUTA</h3>
+                <h3>APPLICATION FOR LEAVE OF ABSENCE FOR CORPS MEMBERS </h3> 
+                <h3>(TO BE COMPLETED IN TRIPLICATE)</h3>
+            </div>
+            <div class="leave-info">
+                <form action="#">
+                    <div class="input-cnt">
+                        <i>Name:</i>
+                        <input type="text" name="name" required/>
+                    </div>
+                    
+                    <br><br>
+                    <div class="input-cnt">
+                        <i>Place of primary assignment:</i>
+                        <input type="text" name="ppa" required />
+                    </div>
+                   
+                    <br><br>
+                    <div class="input-cnt">
+                        <i>Local goverment:</i>
+                        <input type="text" name="lg" required />
+                    </div>
+                    
+                    <br><br>
+                    <div class="input-cnt">
+                        <i>Reason for absence:</i>
+                        <input type="text" name="reasonforabsence" required />
+                    </div>
+                    
+                    <br><br>
+                    <div class="input-cnt">
+                        <i>Number of days</i>
+                        <input type="number" name="numbersofdays" required />
+                    </div>
+                    <br><br>
+                    <div class="input-cnt">
+                        <i>Date of commencement:</i>
+                        <input type="date" name="dateofcommencement"  required />
+                    </div>
+                    <br><br>
+                    <div class="input-cnt">
+                        <i>Applicant's employment approval/recommendation to NYSC:</i>
+                        <input type="text" name="recommendation" required />
+                    </div>
+                    <br><br>
+                    <div class="input-cnt">
+                        <i>Employer's signature:</i>
+                        <span></span>
+                    </div>
+                    <br><br>
+                    <div class="input-cnt">
+                        <i>Field inspector's Comment:</i>
+                        <input type="text" name="comment" required />
+                    </div>
+                    <br><br>
+                    <div class="input-cnt">
+                        <input type="submit" value="SUBMIT">
+                    </div>
+                    <br><br>
+                    <i>NB:</i>
+                    <p> 1.   This application form must be submitted to the field inspector at least two weeks before departure <br><br>
+                        2.  Corps members must collect his leave approval letter before traveling out of Ogun State.<br><br>
+                        3.  corps members must include invitation card buriel poster or programme and notify zonal officer if there are any changes to date of commencement. <br><br>
+                    </p>
+
+                </form>
+            </div>
+        
+        </div>
+        <div class="leave-form1">
+            <div class="header2">
+                <h1 class="text">PERSONAL DATA FORM</h1>
+            </div>
+            <div class="bioDataform">
+                <form>
+                    <div class="input-cn">
+                        <h1>NATIONAL YOUTH SERVICE CORPS, OGUN STATE</h1>
+                        <p><u> PERSONAL DATA FORM </u></p>
+                    </div>
+                    <div class="input-cn">
+                        <i>CODE NO:</i>
+                        <input type="text" name="code" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>SURNAME:</i>
+                        <input type="text" name="surname" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>OTHER NAMES:</i>
+                        <input type="text" name="othernames" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>NYSC CALL-UP NO:</i>
+                        <input type="text" name="callupnumber" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>PHONE NO:</i>
+                        <input type="number" name="number" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>EMAIL ADDRESS:</i>
+                        <input type="text" name="email" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>SEX:</i>
+                        <input type="text" name="sex" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>NUMBER OF CHILDREN (if any)</i>
+                    </div>
+                    <div class="input-cn">
+                        <i>MALE</i>
+                        <input type="number" name="male" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>FEMALE</i>
+                        <input type="number" name="female" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>DATE OF BIRTH:</i>
+                        <input type="date" name="date" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>STATE OF ORIGIN:</i>
+                        <input type="text" name="state" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>L.G.A:</i>
+                        <input type="text" name="lga" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>HIGHER INSTITUTION ATTENDED:</i>
+                        <input type="text" name="school" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>DISCIPLINE:</i>
+                        <input type="text" name="discipline" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>CLASS OF DEGREE:</i>
+                        <input type="text" name="degree" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>PLACE OF PRIMARY ASSIGNMENT:</i>
+                        <input type="text" name="ppa" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>DATE OF ASSUMPTION:</i>
+                        <input type="date" name="assumption" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>PRESENT HOME ADDRESS:</i>
+                        <input type="text" name="address" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>PERMANENT HOME ADDRESS:</i>
+                        <input type="text" name="address2" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>NAME & ADDRESS OF NEXT OF KIN (include Phone No.)</i>
+                        <input type="text" name="kinAaddress" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>RELATIONSHIP WITH NEXT OF KIN:</i>
+                        <input type="text" name="kinRelationship" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>PREVIOUOS STATE(S) OF DEPLOYMENT(If any):</i>
+                        <input type="text" name="deployment" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>DATE OF REGISTRATION AT THE L.G.A:</i>
+                        <input type="date" name="regDate" id="">
+                    </div>
+                    <div class="input-cn">
+                        <i>EMPLOYER'S COMMENT (If any):</i>
+                        <input type="text" name="regDate" id="">
+                    </div>
+                    <div class="signature">
+                        <div class="sig">
+                            <i>ZONAL/LG. INSPECTOR'S SIGNATURE</i>
+                        </div>
+                        <div class="sig">
+                            <i>CORP MEMBER'S SIGNATURE</i>
+                        </div>
+                    </div>
+                    <div class="input-cn">
+                        <input type="submit" value="SUBMIT">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-group one">
+                <a href="#"><img src="images/dg1.jpg"></a>
+                <h2>Brig Gen. Shuaibu Ibrahim (DG NYSC)</h2>
+            </div>
+            <div class="content-group two">
+                <a href="#"><img src="images/LGC.jpg"></a>
+                <h2>Local Gvt. Chairman</h2>
+                <h3>Salami Lateef Adebayo (APC)</h3>
+            </div>
+        </div>
+        <hr>
+        <div class="content1">
+            <div class="gallery-group">
+                <div class="gallery one">MEDIA GALLERY</div>
+                <div class="gallery">CDS ACTIVITIES GALLERY</div>
+                <div class="gallery">CDS PROJECTS GALLERY</div>
+            </div>
+            <div class="anthem">
+                <div class="anthem-container">NYSC ANTHEM</div>
+                <br><br>
+                <p>Youth o obey the clarion call<br>
+                    Let us lift our nation high <br><br>
+                    Under the sun or in the rain <br>
+                    With dedication and selflessness <br><br>
+                    Nigeria's ours, Nigeria we serve.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="poweredby"><p>Powered By MojicTech</p></div>
+            <div class="copyright"><p>Copyright (c) 2021. All Right Reserved. | <a href="#"> Privacy Policy</a> </p></div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
